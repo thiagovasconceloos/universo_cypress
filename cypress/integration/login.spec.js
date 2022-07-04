@@ -4,6 +4,7 @@ it('deve logar com sucesso', () =>{
  
  cy.get('#nickId').type('papitorocks')
  cy.get('#passId').type('pwd123')
+ cy.get('button[type=submit]').click();
 
 
 
